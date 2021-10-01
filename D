@@ -1,0 +1,7 @@
+k, m, kolya, misha = int(input()), int(input()), 0, 0
+for j in range(int(input()), int(input()) + 1):
+    if j % k == 0:
+        kolya += 1
+    if j % m == 0:
+        misha += 1
+print(f'{kolya - misha}')
