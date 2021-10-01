@@ -1,0 +1,6 @@
+one = input().split(' ')
+two = input().split(' ')
+if int(one[0]) + int(one[1]) * int(one[-1]) <= int(two[0]) + int(two[1]) * int(two[-1]):
+    print(1, int(one[0]) + int(one[1]) * int(one[-1]))
+else:
+    print(2, int(two[0]) + int(two[1]) * int(two[-1]))
